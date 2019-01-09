@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<a href="/request-counter">Get link</a>
+<form action="/request-counter" method="post">
+    <button type="submit">Post button</button>
+</form>
+<a href="/statistic">Statistic</a>
+<p>GET counter = {{ get_counter }}</p>
+<p>POST counter = {{ post_counter }}</p>
+<p>PUT counter = {{ put_counter }}</p>
+<p>DELETE counter = {{ delete_counter }}</p>
+</body>
+</html>
